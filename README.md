@@ -89,7 +89,7 @@ This repository provides a **single JavaScript snippet** that you can run direct
 3. Press **Enter**
 
 <p align="center">
-  <img src="https://d.uguu.se/bYtcdUDs.jpg" alt="Console Tab in DevTools" width="600">
+  <img src="https://d.uguu.se/ryiXiiqO.jpg" alt="Console Tab in DevTools" width="600">
   <br>
   <em>📸 Screenshot: Getting results from Console tab in Developer Tools</em>
 </p>
@@ -109,7 +109,7 @@ This repository provides a **single JavaScript snippet** that you can run direct
 2. Open Kiwi Browser on your Android device
 
 <p align="center">
-  <img src="https://your-screenshot-link-here.jpg" alt="Kiwi Browser on Mobile" width="300">
+  <img src="https://n.uguu.se/eEPQzODL.jpg" alt="Kiwi Browser on Mobile" width="300">
   <br>
   <em>📸 Screenshot: Kiwi Browser installed and opened</em>
 </p>
@@ -124,7 +124,7 @@ This repository provides a **single JavaScript snippet** that you can run direct
 4. Tap on the **Channel** you want the JID of
 
 <p align="center">
-  <img src="https://your-screenshot-link-here.jpg" alt="WhatsApp Web in Kiwi Browser" width="300">
+  <img src="https://d.uguu.se/UYMgoovR.jpg" alt="WhatsApp Web in Kiwi Browser" width="300">
   <br>
   <em>📸 Screenshot: WhatsApp Web opened in Kiwi Browser with channel selected</em>
 </p>
@@ -138,7 +138,7 @@ This repository provides a **single JavaScript snippet** that you can run direct
 3. The DevTools panel will open at the bottom of the screen
 
 <p align="center">
-  <img src="https://your-screenshot-link-here.jpg" alt="Open DevTools in Kiwi Browser" width="300">
+  <img src="https://d.uguu.se/kixxqKXo.jpg" alt="Open DevTools in Kiwi Browser" width="300">
   <br>
   <em>📸 Screenshot: Opening Developer Tools in Kiwi Browser</em>
 </p>
@@ -149,10 +149,10 @@ This repository provides a **single JavaScript snippet** that you can run direct
 
 1. In the DevTools panel, tap on the **Console** tab
 2. Copy and paste the script below
-3. Tap the **Run** button or press Enter on your keyboard
+3. Tap the **Run** button or press Enter on your keyboard and you will the list of all channels with their jids 
 
 <p align="center">
-  <img src="https://your-screenshot-link-here.jpg" alt="Console in Kiwi Browser DevTools" width="300">
+  <img src="https://n.uguu.se/hQXepPcC.jpg" alt="Console in Kiwi Browser DevTools" width="300">
   <br>
   <em>📸 Screenshot: Console tab in Kiwi Browser Developer Tools</em>
 </p>
