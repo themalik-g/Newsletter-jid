@@ -145,7 +145,7 @@ This repository provides a **single JavaScript snippet** that you can run direct
 
 ---
 
-#### Step 4: Open Console & Paste the Script
+#### Step 4: Paste the Script,hit enter and get the list of All available Channel jids
 
 1. In the DevTools panel, tap on the **Console** tab
 2. Copy and paste the script below
@@ -162,7 +162,7 @@ This repository provides a **single JavaScript snippet** that you can run direct
 ## 📜 The Script
 
 Copy and paste this into your browser console (PC or Kiwi Browser mobile):
-
+put the exact name of your channel in script where it says "YOUR_CHANNEL_NAME_HERR"
 ```javascript
 (async () => {
     const db = await new Promise((resolve, reject) => {
@@ -200,13 +200,13 @@ Copy and paste this into your browser console (PC or Kiwi Browser mobile):
 Download **"Devil Browser: Web Inspector"** from your app store:
 
 <p align="center">
-  <a href="YOUR_APP_STORE_LINK_HERE">
+  <a href="YOUR_APP_STORE_NAME_HERE">
     <img src="https://img.shields.io/badge/Download-Devil%20Browser-25D366?style=for-the-badge&logo=android&logoColor=white" alt="Download Devil Browser">
   </a>
 </p>
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_STEP_1_MOBILE_DEVIL_BROWSER" alt="Devil Browser App" width="300">
+  <img src="YOUR_SCREENSHOT_NAME_STEP_1_MOBILE_DEVIL_BROWSER" alt="Devil Browser App" width="300">
   <br>
   <em>📸 Screenshot: Devil Browser installation / interface</em>
 </p>
