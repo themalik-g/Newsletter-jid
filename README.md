@@ -51,6 +51,20 @@ This repository provides a **single JavaScript snippet** that you can run direct
 
 > You **do not** need to install any external browser. Use your existing browser's built-in Developer Tools.
 
+
+#### Step 1: Login to WhatsApp Web & Select Your Channel
+
+1. Open [web.whatsapp.com](https://web.whatsapp.com) in your browser
+2. Scan the QR code with your phone to log in
+3. Click on the **Channel** you want the JID of
+
+<p align="center">
+  <img src="YOUR_SCREENSHOT_LINK_STEP_2_PC_WHATSAPP_WEB" alt="WhatsApp Web Channel Selection" width="600">
+  <br>
+  <em>📸 Screenshot: WhatsApp Web with channel selected</em>
+</p>
+
+---
 #### Step 1: Open Developer Tools
 
 | OS | Shortcut |
@@ -62,20 +76,6 @@ This repository provides a **single JavaScript snippet** that you can run direct
   <img src="YOUR_SCREENSHOT_LINK_STEP_1_PC_OPEN_DEVTOOLS" alt="Open DevTools on PC" width="600">
   <br>
   <em>📸 Screenshot: Opening Developer Tools in your browser</em>
-</p>
-
----
-
-#### Step 2: Login to WhatsApp Web & Select Your Channel
-
-1. Open [web.whatsapp.com](https://web.whatsapp.com) in your browser
-2. Scan the QR code with your phone to log in
-3. Click on the **Channel** you want the JID of
-
-<p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_STEP_2_PC_WHATSAPP_WEB" alt="WhatsApp Web Channel Selection" width="600">
-  <br>
-  <em>📸 Screenshot: WhatsApp Web with channel selected</em>
 </p>
 
 ---
