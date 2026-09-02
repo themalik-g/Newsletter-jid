@@ -59,13 +59,13 @@ This repository provides a **single JavaScript snippet** that you can run direct
 3. Click on the **Channel** you want the JID of
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_STEP_2_PC_WHATSAPP_WEB" alt="WhatsApp Web Channel Selection" width="600">
+  <img src="https://ibb.co/k6xv6Df6" alt="WhatsApp Web opening & Channel Selection" width="600">
   <br>
   <em>📸 Screenshot: WhatsApp Web with channel selected</em>
 </p>
 
 ---
-#### Step 1: Open Developer Tools
+#### Step 2: Open Developer Tools
 
 | OS | Shortcut |
 |----|----------|
@@ -73,9 +73,9 @@ This repository provides a **single JavaScript snippet** that you can run direct
 | 🍎 **Mac** | `Cmd + Option + I` |
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_STEP_1_PC_OPEN_DEVTOOLS" alt="Open DevTools on PC" width="600">
+  <img src="https://ibb.co/35x6RQ6z" alt="Open DevTools on PC" width="600">
   <br>
-  <em>📸 Screenshot: Opening Developer Tools in your browser</em>
+  <em>📸 Screenshot: Opening console tab Developer Tools in your browser</em>
 </p>
 
 ---
@@ -87,9 +87,9 @@ This repository provides a **single JavaScript snippet** that you can run direct
 3. Press **Enter**
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_STEP_3_PC_CONSOLE" alt="Console Tab in DevTools" width="600">
+  <img src="https://ibb.co/C5LSpy8n" alt="Console Tab in DevTools" width="600">
   <br>
-  <em>📸 Screenshot: Console tab in Developer Tools</em>
+  <em>📸 Screenshot: Getting results from Console tab in Developer Tools</em>
 </p>
 
 ---
