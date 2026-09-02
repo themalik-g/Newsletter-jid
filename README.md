@@ -41,7 +41,9 @@ This repository provides a **single JavaScript snippet** that you can run direct
 | Platform | Requirement |
 |----------|-------------|
 | 💻 **PC (Windows/Linux/Mac)** | Any modern browser with Developer Tools |
-| 📱 **Mobile** | External browser with DevTools support (recommended: **Devil Browser: Web Inspector**) |
+| 📱 **Mobile** | External browser with DevTools support (recommended: [**Kiwi Browser**](https://www.mediafire.com/file/gshtnfy2wv0g56x/kiwi-browser-139-0-7339-0.apk/file)) |
+
+> 🔔 **Note:** On mobile phones, there is no other browser that gives you developer tools like **Kiwi Browser**. It is the only mobile browser that provides a full-featured DevTools console, making it essential for running this script on Android.
 
 ---
 
@@ -94,7 +96,102 @@ This repository provides a **single JavaScript snippet** that you can run direct
 
 ---
 
-### 📱 For Mobile Users
+### 📱 For Mobile Users (Android)
+
+> 📥 **Download Kiwi Browser first:**  
+> [**⬇️ Click here to download Kiwi Browser APK**](https://www.mediafire.com/file/gshtnfy2wv0g56x/kiwi-browser-139-0-7339-0.apk/file)
+
+> 🔔 **Remember:** On mobile phones, there is no other browser that gives you developer tools like Kiwi Browser. You **must** use Kiwi Browser to access the console on Android.
+
+#### Step 1: Install & Open Kiwi Browser
+
+1. Download and install the **Kiwi Browser** APK from the link above
+2. Open Kiwi Browser on your Android device
+
+<p align="center">
+  <img src="https://your-screenshot-link-here.jpg" alt="Kiwi Browser on Mobile" width="300">
+  <br>
+  <em>📸 Screenshot: Kiwi Browser installed and opened</em>
+</p>
+
+---
+
+#### Step 2: Login to WhatsApp Web & Select Your Channel
+
+1. Go to [web.whatsapp.com](https://web.whatsapp.com) in Kiwi Browser
+2. Tap the **3 dots menu (⋮)** → **Desktop site** to enable desktop mode
+3. Scan the QR code with your phone to log in
+4. Tap on the **Channel** you want the JID of
+
+<p align="center">
+  <img src="https://your-screenshot-link-here.jpg" alt="WhatsApp Web in Kiwi Browser" width="300">
+  <br>
+  <em>📸 Screenshot: WhatsApp Web opened in Kiwi Browser with channel selected</em>
+</p>
+
+---
+
+#### Step 3: Open Developer Tools in Kiwi Browser
+
+1. Tap the **3 dots menu (⋮)** in the top-right corner
+2. Scroll down and tap on **Developer tools**
+3. The DevTools panel will open at the bottom of the screen
+
+<p align="center">
+  <img src="https://your-screenshot-link-here.jpg" alt="Open DevTools in Kiwi Browser" width="300">
+  <br>
+  <em>📸 Screenshot: Opening Developer Tools in Kiwi Browser</em>
+</p>
+
+---
+
+#### Step 4: Open Console & Paste the Script
+
+1. In the DevTools panel, tap on the **Console** tab
+2. Copy and paste the script below
+3. Tap the **Run** button or press Enter on your keyboard
+
+<p align="center">
+  <img src="https://your-screenshot-link-here.jpg" alt="Console in Kiwi Browser DevTools" width="300">
+  <br>
+  <em>📸 Screenshot: Console tab in Kiwi Browser Developer Tools</em>
+</p>
+
+---
+
+## 📜 The Script
+
+Copy and paste this into your browser console (PC or Kiwi Browser mobile):
+
+```javascript
+(async () => {
+    const db = await new Promise((resolve, reject) => {
+        const request = indexedDB.open("wawc");
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+    });
+
+    const transaction = db.transaction("user", "readonly");
+    const store = transaction.objectStore("user");
+    const allData = await new Promise((resolve, reject) => {
+        const request = store.getAll();
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+    });
+
+    const jids = allData
+        .filter(item => item.id && item.id.includes("@newsletter"))
+        .map(item => item.id);
+
+    console.log("%c✅ Found Newsletter JIDs:", "color: #25D366; font-size: 16px; font-weight: bold;");
+    console.table(jids);
+
+    if (jids.length === 0) {
+        console.warn("%c⚠️ No newsletter JIDs found. Make sure you have selected a channel.", "color: orange;");
+    }
+
+    return jids;
+})();
 
 > Mobile browsers typically don't have built-in DevTools. You'll need an external browser.
 
