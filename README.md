@@ -313,14 +313,14 @@ Tech Updates: 112233445566778@newsletter
 ```
 
 <p align="center">
-  <img src="YOUR_SCREENSHOT_LINK_EXPECTED_OUTPUT" alt="Expected Console Output" width="600">
+  <img src="https://d.uguu.se/qfjJWWJB.jpg" alt="Expected Console Output" width="600">
   <br>
   <em>📸 Screenshot: Console output showing extracted JIDs</em>
 </p>
 
 ---
 
-## ⚙️ Customization
+## ⚙️ Customization (leave it if you don't understand)
 
 Want to highlight your own channel? Replace this line in the script:
 
